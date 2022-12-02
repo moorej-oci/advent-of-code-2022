@@ -12,7 +12,7 @@ def get_args():
 
 
 def get_data_dir():
-    return pathlib.Path(__file__).parent.absolute() / 'data'
+    return pathlib.Path(__file__).parent.parent.absolute() / 'data'
 
 
 def main(day, year):
